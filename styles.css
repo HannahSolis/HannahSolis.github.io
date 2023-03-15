@@ -1,0 +1,41 @@
+div {
+    display: inline-block;
+}
+
+.main {
+    background: orange;
+    display: flex;
+}
+
+.contenedor-principal {
+    background: blue;
+    width: 40%;
+    height:90%;
+    padding:10px;
+}
+
+.contenedor-botones {
+    background:red;
+    width: 40%;
+    height:90%
+}
+
+.boton {
+    background:yellow;
+    width: 100px;
+    height:100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.graphic {
+    background:green;
+    width: 300px;
+    height:300px;
+}
+
+#graphic {
+    background:pink;
+    width: 200px;
+    height:200px;
+}
