@@ -1,5 +1,10 @@
 div {
     display: inline-block;
+    font-family: 'Domine', serif;
+}
+
+h1, h2 {
+    font-family: 'Sono', sans-serif;
 }
 
 .main {
