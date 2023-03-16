@@ -32,30 +32,34 @@ h1, h2 {
 
 .contenedor-principal {
     background: blue;
-    width: 50%;
-    height:100%;
+    max-width: 50%;
+    max-height:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5%;
 }
 
 .graphic {
     background:green;
-    width: 300px;
-    height:300px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height:300px;
     margin: 0 auto;
 }
 
 .contenedor-botones {
     background:red;
     display: grid;
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     grid-template-columns: repeat(2, 105px) 210px;
     grid-template-rows: 1fr;
     column-gap: 10px;
     row-gap: 10px;
     padding: 20px;
+    margin: 5%;
 }
 
 .boton {
@@ -64,21 +68,25 @@ h1, h2 {
     min-width: 100px;
     min-height: 100px;
     text-align: center;
+    margin:5px;
 }
 
 .container {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
 }
 
+.box > .boton {
+    margin: 5px 0px 0px 0px;
+}
 .box {
     display: inline-grid;
     grid-template-columns: repeat(2, 100px);
     grid-template-rows: repeat(2, 100px);
-    column-gap: 15px;
-    row-gap: 15px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -88,6 +96,6 @@ h1, h2 {
 
 .graph {
     background:pink;
-    min-width: 210px;
-    min-height: 210px;
+    width: 210px;
+    height: 210px;
 }
