@@ -10,7 +10,7 @@
 
 div {
     display: inline-block;
-    font-family: 'Sono', sans-serif;
+    font-family: 'Sono', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
