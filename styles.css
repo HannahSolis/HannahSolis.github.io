@@ -114,8 +114,6 @@ h1, h2 {
 
 @media screen and (max-width:500px) {
 
-
-
     .contenedor-botones {
         max-width: 400px;
         max-height: 400px;
@@ -128,6 +126,7 @@ h1, h2 {
     }
     
     .box {
+        margin-left: 5px;
         grid-template-columns: repeat(2, 70px);
         grid-template-rows: repeat(3, 70px);
     }
