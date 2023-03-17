@@ -10,7 +10,6 @@
 
 div {
     display: inline-block;
-    /*font-family: 'Domine', serif;*/
     font-family: 'Sono', sans-serif;
     box-sizing: border-box;
 }
@@ -28,6 +27,13 @@ h2 {
     margin: 0;
 }
 
+p {
+    margin: 5px;
+    max-width: 500px;
+    text-align: center;
+    font-size: 15px;
+}
+
 .main {
     background: orange;
     display: flex;
@@ -35,7 +41,7 @@ h2 {
     justify-content: center;
     width: 90%;
     height: 100%;
-    margin: 15% auto;
+    margin: 10% auto;
     flex-wrap: wrap;
 }
 
