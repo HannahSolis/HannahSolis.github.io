@@ -149,7 +149,10 @@ a {
     color: black;
 }
 
-
+.graph2 {
+    background:pink;
+    box-shadow: none;
+}
 
 .col1 {
     box-shadow: 5px 5px #600047;
