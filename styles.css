@@ -96,7 +96,9 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
-
+.op1, .op2 {
+    display: none;
+}
 
 /*  ------- BOTONES ESPECIFICOS -------- */
 
@@ -115,32 +117,40 @@ h1, h2 {
 
 
     .contenedor-botones {
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 400px;
+        max-height: 400px;
         grid-template-columns: repeat(1, 53px) 105px;
     }
     
     .boton {
-        min-width: 50px;
-        min-height: 50px;
+        min-width: 60px;
+        min-height: 60px;
     }
     
     .box {
         display: inline-grid;
-        grid-template-columns: repeat(2, 50px);
-        grid-template-rows: repeat(2, 50px);
+        grid-template-columns: repeat(2, 60px);
+        grid-template-rows: repeat(3, 60px);
     }
     
     /*  ------- BOTONES ESPECIFICOS -------- */
-    
+    .op1, .op2 {
+        display: block;
+    }
+
     .graph {
-        width: 50px;
-        height: 50px;
+        display: none;
     }
 
     .p21 {
         display:none;
     }
+
+    .esp {
+        display: none;
+    }
+
+
 
 
 
