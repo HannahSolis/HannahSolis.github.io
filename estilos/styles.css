@@ -84,6 +84,7 @@ p {
     row-gap: 10px;
     padding: 20px;
     margin: 2%;
+    font-size: 32px;
 }
 
 .boton {
@@ -99,7 +100,6 @@ p {
     justify-content: center;
     box-shadow: 5px 5px teal;
     transition: all 0.3s ease-in-out;
-    font-size: 32px;
 }
 
 .boton:hover {
@@ -130,6 +130,10 @@ p {
     display: none;
 }
 
+.p11 {
+    font-size: 20px;
+}
+
 /*  ------- BOTONES ESPECIFICOS -------- */
 
 
@@ -137,6 +141,11 @@ p {
     background:pink;
     width: 210px;
     height: 210px;
+    box-shadow: none;
+}
+
+.graph:hover {
+    color: black;
 }
 
 
