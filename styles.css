@@ -19,6 +19,15 @@ h1, h2 {
     text-align: center;
 }
 
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
 .main {
     background: orange;
     display: flex;
@@ -26,7 +35,7 @@ h1, h2 {
     justify-content: center;
     width: 90%;
     height: 100%;
-    margin: 10% auto;
+    margin: 15% auto;
     flex-wrap: wrap;
 }
 
