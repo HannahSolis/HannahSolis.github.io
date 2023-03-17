@@ -25,6 +25,7 @@ h1, h2 {
 
 h1 {
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 h2 {
@@ -62,10 +63,8 @@ p {
 
 .graphic {
     background:green;
-    min-width: 200px;
-    min-height: 200px;
-    max-width: 300px;
-    max-height:300px;
+    max-width: 200px;
+    max-height: 200px;
     margin: 0 auto;
     border-radius: 100px;
 }
