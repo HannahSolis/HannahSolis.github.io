@@ -19,13 +19,14 @@ div {
     box-sizing: border-box;
 }
 
-h1, h2 {
+h1, h2, p {
     text-align: center;
+    color: #332853;
 }
 
 h1 {
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 h2 {
@@ -41,7 +42,7 @@ p {
 }
 
 .main {
-    background: orange;
+    /*background: orange;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +53,7 @@ p {
 }
 
 .contenedor-principal {
-    background: blue;
+    /*background: blue;*/
     max-width: 80%;
     max-height:100%;
     display: flex;
@@ -63,6 +64,7 @@ p {
 
 .graphic {
     background:green;
+    filter: drop-shadow(10px 10px 0 rgb(255, 136, 0));
     max-width: 200px;
     max-height: 200px;
     margin: 0 auto;
@@ -78,7 +80,7 @@ a {
 /* --------- Contendedor de botones y cuadrilla --------*/
 
 .contenedor-botones {
-    background:red;
+    /*background:red;*/
     display: grid;
     max-width: 500px;
     max-height: 500px;
@@ -92,7 +94,7 @@ a {
 }
 
 .boton {
-    background:yellow;
+    background:white;
     display: flex;
     padding: 5px;
     min-width: 100px;
@@ -104,6 +106,7 @@ a {
     justify-content: center;
     box-shadow: 5px 5px teal;
     transition: all 0.3s ease-in-out;
+    border: solid 1px #909797;
 }
 
 .boton:hover {
