@@ -92,6 +92,14 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px teal;
+    transition: all 0.3s ease-in-out;
+}
+
+.boton:hover {
+    box-shadow: none;
+    color:teal;
+    transition: all 0.3s ease-in-out;
 }
 
 .container {
