@@ -115,9 +115,9 @@ h1, h2 {
 
 
     .contenedor-botones {
-        min-width: 300px;
-        min-height: 300px;
-        grid-template-columns: repeat(1, 105px) 210px;
+        max-width: 300px;
+        max-height: 300px;
+        grid-template-columns: repeat(1, 53px) 105px;
     }
     
     .boton {
@@ -131,13 +131,11 @@ h1, h2 {
         grid-template-rows: repeat(2, 50px);
     }
     
-    
-    
     /*  ------- BOTONES ESPECIFICOS -------- */
     
     .graph {
-        width: 105px;
-        height: 105px;
+        width: 50px;
+        height: 50px;
     }
 
     .p21 {
