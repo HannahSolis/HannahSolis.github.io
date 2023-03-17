@@ -12,7 +12,17 @@
 
 
 */
-
+body {
+    margin: 0;
+}
+#particles-js {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
 div {
     display: inline-block;
     font-family: 'Sono', Arial, Helvetica, sans-serif;
@@ -190,6 +200,7 @@ a {
 .col3 {
     box-shadow: 5px 5px #7ee31f;
     transition: all 0.3s ease-in-out;
+    /*box-shadow: 5px 5px #a69cc4;*/
 }
 
 .col3:hover {
