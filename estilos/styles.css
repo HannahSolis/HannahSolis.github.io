@@ -64,7 +64,7 @@ p {
 
 .graphic {
     background:green;
-    filter: drop-shadow(10px 10px 0 rgb(255, 136, 0));
+    filter: drop-shadow(10px 10px 0 #ec3841);
     max-width: 200px;
     max-height: 200px;
     margin: 0 auto;
@@ -146,6 +146,7 @@ a {
     width: 210px;
     height: 210px;
     box-shadow: none;
+    border: none;
 }
 
 .graph:hover {
@@ -155,6 +156,7 @@ a {
 .graph2 {
     background:pink;
     box-shadow: none;
+    border: none;
 }
 
 .col1 {
@@ -165,6 +167,7 @@ a {
 .col1:hover {
     box-shadow: none;
     color:#600047;
+    border: solid 1px #600047;
     transition: all 0.3s ease-in-out;
 }
 
@@ -180,6 +183,7 @@ a {
 .col2:hover {
     box-shadow: none;
     color:#3772ff;
+    border: solid 1px #3772ff;
     transition: all 0.3s ease-in-out;
 }
 
@@ -195,6 +199,7 @@ a {
 .col3:hover {
     box-shadow: none;
     color:#7ee31f;
+    border: solid 1px #7ee31f;
     transition: all 0.3s ease-in-out;
 }
 
@@ -210,6 +215,7 @@ a {
 .col4:hover {
     box-shadow: none;
     color:#ec3841;
+    border: solid 1px #ec3841;
     transition: all 0.3s ease-in-out;
 }
 
@@ -225,6 +231,7 @@ a {
 .col5:hover {
     box-shadow: none;
     color:#0f7173;
+    border: solid 1px #0f7173;
     transition: all 0.3s ease-in-out;
 }
 
