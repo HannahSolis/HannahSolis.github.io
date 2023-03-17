@@ -165,6 +165,10 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
+.col1:hover > img {
+    filter: invert(8%) sepia(29%) saturate(7192%) hue-rotate(294deg) brightness(146%) contrast(139%);
+}
+
 .col2 {
     box-shadow: 5px 5px #3772ff;
     transition: all 0.3s ease-in-out;
@@ -174,6 +178,10 @@ a {
     box-shadow: none;
     color:#3772ff;
     transition: all 0.3s ease-in-out;
+}
+
+.col2:hover > img {
+    filter: invert(36%) sepia(72%) saturate(2254%) hue-rotate(212deg) brightness(99%) contrast(111%);
 }
 
 .col3 {
@@ -187,6 +195,10 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
+.col3:hover > img {
+    filter: invert(64%) sepia(100%) saturate(376%) hue-rotate(43deg) brightness(100%) contrast(98%);
+}
+
 .col4 {
     box-shadow: 5px 5px #ec3841;
     transition: all 0.3s ease-in-out;
@@ -198,6 +210,10 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
+.col4:hover > img {
+    filter: invert(29%) sepia(64%) saturate(2535%) hue-rotate(337deg) brightness(95%) contrast(95%);
+}
+
 .col5 {
     box-shadow: 5px 5px #0f7173;
     transition: all 0.3s ease-in-out;
@@ -207,6 +223,10 @@ a {
     box-shadow: none;
     color:#0f7173;
     transition: all 0.3s ease-in-out;
+}
+
+.col5:hover > img {
+    filter: invert(32%) sepia(57%) saturate(604%) hue-rotate(132deg) brightness(99%) contrast(94%);
 }
 
 /* ------- Responsive design --------*/
