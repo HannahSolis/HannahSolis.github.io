@@ -9,6 +9,7 @@
 
     ICONS
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/maxim-basinski-premium" title="Maxim Basinski Premium">Maxim Basinski Premium</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/feen" title="feen">feen</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<a href="https://www.flaticon.com/free-icons/transparency" title="transparency icons">Transparency icons created by Reion - Flaticon</a>
 
 
 */
@@ -148,7 +149,6 @@ a {
 
 
 .graph {
-    background:pink;
     width: 210px;
     height: 210px;
     box-shadow: none;
@@ -160,7 +160,6 @@ a {
 }
 
 .graph2 {
-    background:pink;
     box-shadow: none;
     border: none;
 }
@@ -246,6 +245,10 @@ a {
     filter: invert(32%) sepia(57%) saturate(604%) hue-rotate(132deg) brightness(99%) contrast(94%);
 }
 
+.graph > img {
+    width: 200px;
+}
+
 /* ------- Responsive design --------*/
 
 @media screen and (max-width:500px) {
@@ -278,7 +281,9 @@ a {
         display: none;
     }
 
-
+    .graph2 > img {
+        width: 60px;
+    }
 
 
 
