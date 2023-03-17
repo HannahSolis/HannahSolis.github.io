@@ -150,6 +150,62 @@ a {
 }
 
 
+
+.col1 {
+    box-shadow: 5px 5px #600047;
+    transition: all 0.3s ease-in-out;
+}
+
+.col1:hover {
+    box-shadow: none;
+    color:#600047;
+    transition: all 0.3s ease-in-out;
+}
+
+.col2 {
+    box-shadow: 5px 5px #3772ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.col2:hover {
+    box-shadow: none;
+    color:#3772ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.col3 {
+    box-shadow: 5px 5px #7ee31f;
+    transition: all 0.3s ease-in-out;
+}
+
+.col3:hover {
+    box-shadow: none;
+    color:#7ee31f;
+    transition: all 0.3s ease-in-out;
+}
+
+.col4 {
+    box-shadow: 5px 5px #ec3841;
+    transition: all 0.3s ease-in-out;
+}
+
+.col4:hover {
+    box-shadow: none;
+    color:#ec3841;
+    transition: all 0.3s ease-in-out;
+}
+
+.col5 {
+    box-shadow: 5px 5px #0f7173;
+    transition: all 0.3s ease-in-out;
+}
+
+.col5:hover {
+    box-shadow: none;
+    color:#0f7173;
+    transition: all 0.3s ease-in-out;
+}
+
 /* ------- Responsive design --------*/
 
 @media screen and (max-width:500px) {
