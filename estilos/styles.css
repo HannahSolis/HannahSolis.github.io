@@ -70,6 +70,11 @@ p {
     border-radius: 100px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 /* --------- Contendedor de botones y cuadrilla --------*/
 
