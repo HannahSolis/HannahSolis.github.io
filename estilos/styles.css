@@ -16,6 +16,7 @@
 body {
     margin: 0;
 }
+
 #particles-js {
     background-color: #ffffff;
     position: fixed;
@@ -24,6 +25,7 @@ body {
     top: 0;
     z-index: -1;
 }
+
 div {
     display: inline-block;
     font-family: 'Sono', Arial, Helvetica, sans-serif;
