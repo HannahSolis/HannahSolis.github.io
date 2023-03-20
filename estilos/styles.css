@@ -58,7 +58,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    max-width: 80%;
     height: 100%;
     margin: 10% auto;
     flex-wrap: wrap;

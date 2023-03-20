@@ -31,4 +31,5 @@ h1, h2, p {
     height: 100%;
     margin: 10% auto;
     flex-wrap: wrap;
+    flex-direction: column;
 }
