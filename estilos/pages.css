@@ -46,11 +46,20 @@ a:hover {
 }
 
 .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: cyan;
     margin: 10px auto;
     padding: 10px;
+    width: 90%;
 }
 
 .elemento {
     background-color: green;
+    height: 300px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
 }
