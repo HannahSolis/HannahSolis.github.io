@@ -21,6 +21,7 @@ div {
 h1, h2, p {
     text-align: center;
     color: #332853;
+    max-width: 800px;
 }
 
 .main {
@@ -32,4 +33,13 @@ h1, h2, p {
     margin: 10% auto;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #332853;
+}
+
+a:hover {
+    color: #3a1c94;
 }
