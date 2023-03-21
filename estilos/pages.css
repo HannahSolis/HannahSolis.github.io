@@ -31,7 +31,7 @@ h1, h2, h3, p {
     justify-content: center;
     width: 90%;
     height: 100%;
-    margin: 10% auto;
+    margin: 10px auto;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -47,9 +47,7 @@ a:hover {
 
 .block {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     background-color: cyan;
     margin: 10px auto;
     padding: 10px;
@@ -59,7 +57,15 @@ a:hover {
 .elemento {
     background-color: green;
     height: 300px;
-    width: 200px;
+    min-width: 300px;
     padding: 5px;
     margin: 10px;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .block {
+        flex-direction: column;
+    }
 }
