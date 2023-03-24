@@ -60,10 +60,19 @@ a:hover {
     min-width: 300px;
     padding: 5px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .about {
     margin-top: 10%;
+}
+
+.thumb {
+    max-width: 200px;
+    max-height: 200px;
 }
 
 
