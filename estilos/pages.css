@@ -63,7 +63,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    border: solid 1px #600047;
+    box-shadow: 10px 10px #600047;
 }
 
 .about {
@@ -84,6 +85,10 @@ a:hover {
     max-width: 250px;
 }
 
+.elemento:hover {
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
 
 @media screen and (max-width:800px) {
 
