@@ -55,7 +55,7 @@ a:hover {
 }
 
 .elemento {
-    background-color: green;
+    background-color: white;
     height: 300px;
     min-width: 300px;
     padding: 5px;
@@ -71,8 +71,17 @@ a:hover {
 }
 
 .thumb {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.elemento > h3 {
+    margin-bottom: 0px;
+}
+
+.elemento > p {
+    font-size: 15px;
+    max-width: 250px;
 }
 
 
