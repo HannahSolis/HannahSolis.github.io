@@ -25,7 +25,9 @@ div {
     box-sizing: border-box;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
     text-align: center;
     color: #332853;
 }
@@ -61,7 +63,7 @@ p {
 .contenedor-principal {
     background-color: green;
     max-width: 80%;
-    max-height:100%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,7 +80,7 @@ p {
 
 a {
     text-decoration: none;
-    color: black;    
+    color: black;
 }
 
 
@@ -94,7 +96,7 @@ a {
     margin: 2%;
 
     display: grid;
-    
+
     grid-template-columns: repeat(4, 105px);
 
     column-gap: 10px;
@@ -102,13 +104,13 @@ a {
 }
 
 .boton {
-    background:yellow;
+    background: yellow;
     display: flex;
     padding: 5px;
     min-width: 100px;
     min-height: 100px;
     text-align: center;
-    margin:5px;
+    margin: 5px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -244,7 +246,7 @@ a {
 
 /* Imagen de la grafica */
 
-.graph > img {
+.graph>img {
     width: 200px;
 }
 
@@ -273,17 +275,24 @@ a {
         padding: 0;
         margin-left: -20px;
     }
-    
+
     .boton {
         min-width: 70px;
         min-height: 70px;
     }
-    
-    
+
+
     /*  ------- BOTONES ESPECIFICOS -------- */
 
     .nodisp {
-        display: none;
+        position: absolute !important;
+        top: -9999px !important;
+        left: -9999px !important;
+    }
+
+    .graph {
+        width: 70px;
+        height: 70px;
     }
 
 
