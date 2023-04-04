@@ -121,9 +121,9 @@ a {
 }
 
 .boton:hover {
-    /*box-shadow: none;
+    box-shadow: none;
     color:teal;
-    transition: all 0.3s ease-in-out;*/
+    transition: all 0.3s ease-in-out;
 }
 
 .container {
@@ -147,6 +147,7 @@ a {
     grid-column: 3 / 5;
     box-shadow: none;
     border: none;
+    transition: none;
 }
 
 .graph:hover {
