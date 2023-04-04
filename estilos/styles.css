@@ -143,6 +143,8 @@ a {
     background-color: pink;
     width: 210px;
     height: 210px;
+    grid-row: 3 / 5;
+    grid-column: 3 / 5;
     box-shadow: none;
     border: none;
 }
@@ -150,13 +152,6 @@ a {
 .graph:hover {
     color: black;
 }
-
-.graph2 {
-    background-color: pink;
-    box-shadow: none;
-    border: none;
-}
-
 
 /*      Colores de los botones */
 
@@ -294,6 +289,10 @@ a {
     .graph {
         width: 70px;
         height: 70px;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 4;
     }
 
     .graph > img {
