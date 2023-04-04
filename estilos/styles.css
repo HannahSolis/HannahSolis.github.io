@@ -89,16 +89,16 @@ a {
     background-color: red;
     max-width: 500px;
     max-height: 500px;
+    font-size: 32px;
+    padding: 20px;
+    margin: 2%;
 
     display: grid;
     
-    grid-template-columns: repeat(2, 105px) 210px;
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 105px);
+
     column-gap: 10px;
     row-gap: 10px;
-    padding: 20px;
-    margin: 2%;
-    font-size: 32px;
 }
 
 .boton {
@@ -128,19 +128,6 @@ a {
     flex-direction: column;
 }
 
-.box > .boton {
-    margin: 5px 0px 0px 0px;
-}
-.box {
-    display: inline-grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px);
-    column-gap: 10px;
-    row-gap: 10px;
-}
-.op1, .op2 {
-    display: none;
-}
 
 .p11 {
     font-size: 20px;
@@ -282,7 +269,7 @@ a {
     .contenedor-botones {
         max-width: 400px;
         max-height: 400px;
-        grid-template-columns: repeat(1, 70px) 140px;
+        grid-template-columns: repeat(3, 70px);
         padding: 0;
         margin-left: -20px;
     }
@@ -292,23 +279,11 @@ a {
         min-height: 70px;
     }
     
-    .box {
-        margin-left: 5px;
-        grid-template-columns: repeat(2, 70px);
-        grid-template-rows: repeat(3, 70px);
-    }
     
     /*  ------- BOTONES ESPECIFICOS -------- */
-    .op1, .op2 {
-        display: flex;
-    }
 
-    .esp, .p11, .graph{
+    .nodisp {
         display: none;
-    }
-
-    .graph2 > img {
-        width: 60px;
     }
 
 
