@@ -91,6 +91,7 @@ a {
 /* --------- Contendedor de botones y cuadrilla --------*/
 
 .contenedor-botones {
+    background-color: red;
     display: grid;
     max-width: 500px;
     max-height: 500px;
@@ -104,7 +105,7 @@ a {
 }
 
 .boton {
-    background:white;
+    background:yellow;
     display: flex;
     padding: 5px;
     min-width: 100px;
@@ -152,6 +153,7 @@ a {
 
 
 .graph {
+    background-color: pink;
     width: 210px;
     height: 210px;
     box-shadow: none;
