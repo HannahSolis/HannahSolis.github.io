@@ -35,7 +35,12 @@ function contraer(btn) {
     const derExt = "#" +btn.id +" > div";
     console.log(derExt);
 
-    document.querySelector(izquierda).classList.remove("hide"); 
-    document.querySelector(derecha).classList.remove("extend");
     document.querySelector(derExt).classList.remove("extend");
+    document.querySelector(izquierda).classList.remove("hide"); 
+    
+    
+    setTimeout(() => {
+        document.querySelector(derecha).classList.remove("extend");
+    }, 300)
+    
 }
