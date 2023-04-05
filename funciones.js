@@ -11,9 +11,13 @@
 //document.querySelector(".n1 > div").classList.remove("extend");
 
 function extender(btn) {
-    const derecha ="#" +btn.id;
-    const izquierda ="." +btn.id +"l";
-    const derExt = "#" +btn.id +" > div";
+    let valor = btn.id;
+    if(valor.length==5){
+        valor = valor.substring(0,4);
+    }
+    const derecha ="#" +valor;
+    const izquierda ="." +valor +"l";
+    const derExt = "#" +valor +" > div";
     
     document.querySelector(izquierda).classList.add("hide"); 
 
@@ -25,9 +29,13 @@ function extender(btn) {
 
 
 function contraer(btn) {
-    const derecha ="#" +btn.id;
-    const izquierda ="." +btn.id +"l";
-    const derExt = "#" +btn.id +" > div";
+    let valor = btn.id;
+    if(valor.length==5){
+        valor = valor.substring(0,4);
+    }
+    const derecha ="#" +valor;
+    const izquierda ="." +valor +"l";
+    const derExt = "#" +valor +" > div";
 
     document.querySelector(derExt).classList.remove("extend");
     document.querySelector(izquierda).classList.remove("hide"); 
@@ -37,4 +45,12 @@ function contraer(btn) {
     //     document.querySelector(derecha).classList.remove("extend");
     // }, 300)
     
+}
+
+
+function prueba(btn) {
+    let derecha = btn.id;
+    if(derecha.length==5){
+        derecha = derecha.substring(0,4);
+    }
 }
