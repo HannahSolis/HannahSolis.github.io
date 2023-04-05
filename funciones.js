@@ -41,16 +41,5 @@ function contraer(btn) {
     document.querySelector(izquierda).classList.remove("hide"); 
     document.querySelector(derecha).classList.remove("extend");
     
-    // setTimeout(() => {
-    //     document.querySelector(derecha).classList.remove("extend");
-    // }, 300)
-    
 }
 
-
-function prueba(btn) {
-    let derecha = btn.id;
-    if(derecha.length==5){
-        derecha = derecha.substring(0,4);
-    }
-}
