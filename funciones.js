@@ -12,11 +12,8 @@
 
 function extender(btn) {
     const derecha ="#" +btn.id;
-    console.log(derecha);
     const izquierda ="." +btn.id +"l";
-    console.log(izquierda);
     const derExt = "#" +btn.id +" > div";
-    console.log(derExt);
     
     document.querySelector(izquierda).classList.add("hide"); 
 
@@ -29,18 +26,15 @@ function extender(btn) {
 
 function contraer(btn) {
     const derecha ="#" +btn.id;
-    console.log(derecha);
     const izquierda ="." +btn.id +"l";
-    console.log(izquierda);
     const derExt = "#" +btn.id +" > div";
-    console.log(derExt);
 
     document.querySelector(derExt).classList.remove("extend");
     document.querySelector(izquierda).classList.remove("hide"); 
+    document.querySelector(derecha).classList.remove("extend");
     
-    
-    setTimeout(() => {
-        document.querySelector(derecha).classList.remove("extend");
-    }, 300)
+    // setTimeout(() => {
+    //     document.querySelector(derecha).classList.remove("extend");
+    // }, 300)
     
 }
