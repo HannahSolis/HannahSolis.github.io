@@ -102,14 +102,14 @@ a {
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px teal;
-    transition: color 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     border: solid 1px #909797;
 }
 
 .boton:hover {
     box-shadow: none;
     color:teal;
-    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .container {
@@ -133,7 +133,6 @@ a {
 .graph:hover {
     color: black;
 }
-
 /*      Colores de los botones */
 
 /*
@@ -240,7 +239,6 @@ a {
 /* COSAS DEL JAVASCRIPT */
 
 .extend {
-    /*grid-column: 1/3;*/
     width: 220px;
     transition: all 0.3s ease-in-out;
 }

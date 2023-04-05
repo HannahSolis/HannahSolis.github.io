@@ -10,36 +10,28 @@
 
 //document.querySelector(".n1 > div").classList.remove("extend");
 
-function extender(btn) {
-    let valor = btn.id;
-    if(valor.length==5){
-        valor = valor.substring(0,4);
-    }
-    const derecha ="#" +valor;
-    const izquierda ="." +valor +"l";
-    const derExt = "#" +valor +" > div";
+function extender() {
     
-    document.querySelector(izquierda).classList.add("hide"); 
+    // document.querySelectorAll(".rl").classList.add("hide"); 
+    // document.querySelectorAll(".rr").classList.add("extend");
+    // document.querySelectorAll(".rr > div").classList.add("extend");
 
-    document.querySelector(derecha).classList.add("extend");
-    document.querySelector(derExt).classList.add("extend");
-
+    document.querySelectorAll(".rl").forEach(item => item.classList.add("hide"));
+    document.querySelectorAll(".rr").forEach(item => item.classList.add("extend"));
+    document.querySelectorAll(".rr > div").forEach(item => item.classList.add("extend"));
     
 }
 
 
-function contraer(btn) {
-    let valor = btn.id;
-    if(valor.length==5){
-        valor = valor.substring(0,4);
-    }
-    const derecha ="#" +valor;
-    const izquierda ="." +valor +"l";
-    const derExt = "#" +valor +" > div";
+function contraer() {
 
-    document.querySelector(derExt).classList.remove("extend");
-    document.querySelector(izquierda).classList.remove("hide"); 
-    document.querySelector(derecha).classList.remove("extend");
+    // document.querySelectorAll(".rl").classList.remove("hide"); 
+    // document.querySelectorAll(".rr").classList.remove("extend");
+    // document.querySelectorAll(".rr > div").classList.remove("extend");
+
+    document.querySelectorAll(".rl").forEach(item => item.classList.remove("hide"));
+    document.querySelectorAll(".rr").forEach(item => item.classList.remove("extend"));
+    document.querySelectorAll(".rr > div").forEach(item => item.classList.remove("extend"));
     
 }
 
