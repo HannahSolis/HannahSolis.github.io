@@ -69,6 +69,7 @@ p {
 a {
     text-decoration: none;
     color: black;
+    
 }
 
 /* --------- Contendedor de botones y cuadrilla --------*/
@@ -105,6 +106,7 @@ a {
     box-shadow: 5px 5px teal;
     transition: all 0.3s ease-in-out;
     border: solid 1px #909797;
+    overflow:hidden;
 }
 
 .boton:hover {
