@@ -1,23 +1,11 @@
-/*
-    COLORES
-    #600047
-    #3772ff
-    #C9E31F
-    #df3b57
-    #0f7173
-
-
-    ICONS
+/*  ICONS
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/maxim-basinski-premium" title="Maxim Basinski Premium">Maxim Basinski Premium</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/feen" title="feen">feen</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <a href="https://www.flaticon.com/free-icons/transparency" title="transparency icons">Transparency icons created by Reion - Flaticon</a>
-
-
 */
+
 body {
     margin: 0;
 }
-
-
 
 div {
     display: inline-block;
@@ -83,8 +71,6 @@ a {
     color: black;
 }
 
-
-
 /* --------- Contendedor de botones y cuadrilla --------*/
 
 .contenedor-botones {
@@ -131,13 +117,7 @@ a {
     flex-direction: column;
 }
 
-
-.p11 {
-    font-size: 20px;
-}
-
 /*  ------- BOTONES ESPECIFICOS -------- */
-
 
 .graph {
     background-color: pink;
@@ -155,7 +135,6 @@ a {
 }
 
 /*      Colores de los botones */
-
 
 /*
 .col1 {
@@ -240,15 +219,11 @@ a {
 
 */
 
-
 /* Imagen de la grafica */
 
 .graph>img {
     width: 200px;
 }
-
-
-
 
 /* ------- Estilos para JavaScript ----*/
 
@@ -259,6 +234,21 @@ a {
     height: 100%;
     top: 0;
     z-index: -1;
+}
+
+
+/* COSAS DEL JAVASCRIPT */
+
+.extend {
+    grid-column: 1/3;
+    width: 210px;
+}
+
+.hide {
+    display: none;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
 }
 
 /* ------- Responsive design --------*/
