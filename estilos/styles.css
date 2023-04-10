@@ -13,17 +13,10 @@
 
 
 */
+
+/* Main body and elements section*/
 body {
     margin: 0;
-}
-
-#particles-js {
-    background-color: #ffffff;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    z-index: -1;
 }
 
 div {
@@ -54,6 +47,25 @@ p {
     font-size: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: black;    
+}
+
+/* Javascript configuration */
+
+#particles-js {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+
+/* Especialized div containers */
+
 .main {
     display: flex;
     align-items: center;
@@ -73,6 +85,8 @@ p {
     margin: 2%;
 }
 
+/* Profile picture */
+
 .graphic {
     filter: drop-shadow(10px 10px 0 #ec3841);
     max-width: 200px;
@@ -81,14 +95,7 @@ p {
     border-radius: 100px;
 }
 
-a {
-    text-decoration: none;
-    color: black;    
-}
-
-
-
-/* --------- Contendedor de botones y cuadrilla --------*/
+/* Button menu divs */
 
 .contenedor-botones {
     display: grid;
@@ -148,7 +155,7 @@ a {
     font-size: 20px;
 }
 
-/*  ------- BOTONES ESPECIFICOS -------- */
+/* Special button configurations */
 
 
 .graph {
@@ -287,8 +294,6 @@ a {
     .graph2 > img {
         width: 60px;
     }
-
-
 
 
 }
