@@ -115,7 +115,7 @@ a {
 }    
 
 .boton {
-    background: yellow;
+    background: white;
     display: flex;
     padding: 5px;
     width: 100px;
@@ -140,7 +140,7 @@ a {
 /* Special button configurations */
 
 .graph {
-    background-color: pink;
+    background: none;
     width: 210px;
     height: 210px;
     grid-row: 3 / 5;
