@@ -98,7 +98,6 @@ a {
 /* Button menu divs */
 
 .contenedor-botones {
-    background-color: rgb(202, 91, 0);
     max-width: 500px;
     max-height: 500px;
     font-size: 30px;
@@ -140,7 +139,6 @@ a {
 /* Double container */
 
 .double {
-    background-color: #0f7335;
     display: flex;
     margin: 0px 5px;
     /*max-height: 110px;*/
