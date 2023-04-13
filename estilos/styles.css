@@ -13,17 +13,10 @@
 
 
 */
+
+/* Main body and elements section*/
 body {
     margin: 0;
-}
-
-#particles-js {
-    background-color: #ffffff;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    z-index: -1;
 }
 
 div {
@@ -54,6 +47,25 @@ p {
     font-size: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: black;   
+}
+
+/* Javascript configuration */
+
+#particles-js {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+
+/* Especialized div containers */
+
 .main {
     display: flex;
     align-items: center;
@@ -73,6 +85,8 @@ p {
     margin: 2%;
 }
 
+/* Profile picture */
+
 .graphic {
     filter: drop-shadow(10px 10px 0 #ec3841);
     max-width: 200px;
@@ -81,42 +95,39 @@ p {
     border-radius: 100px;
 }
 
-a {
-    text-decoration: none;
-    color: black;    
-}
-
-
-
-/* --------- Contendedor de botones y cuadrilla --------*/
+/* Button menu divs */
 
 .contenedor-botones {
-    display: grid;
     max-width: 500px;
     max-height: 500px;
-    grid-template-columns: repeat(2, 105px) 210px;
-    grid-template-rows: 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
+    font-size: 30px;
     padding: 20px;
     margin: 2%;
-    font-size: 32px;
-}
+
+    display: grid;
+
+    grid-template-rows: repeat(4, 105px);
+    grid-template-columns: 210px repeat(2, 105px);
+    
+    grid-auto-flow: column;
+
+    column-gap: 10px;
+    row-gap: 10px;
+}    
 
 .boton {
-    background:white;
+    background: white;
     display: flex;
-    padding: 5px;
-    min-width: 100px;
-    min-height: 100px;
+    width: 100px;
+    height: 100px;
     text-align: center;
-    margin:5px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px teal;
     transition: all 0.3s ease-in-out;
     border: solid 1px #909797;
+    overflow:hidden;
 }
 
 .boton:hover {
@@ -125,35 +136,27 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-.container {
-    display: inline-flex;
-    flex-direction: column;
+/* Double container */
+
+.double {
+    display: flex;
+    margin: 0px 5px;
+    /*max-height: 110px;*/
 }
 
-.box > .boton {
-    margin: 5px 0px 0px 0px;
-}
-.box {
-    display: inline-grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px);
-    column-gap: 10px;
-    row-gap: 10px;
-}
-.op1, .op2 {
-    display: none;
+.double > .nodisp {
+    margin-right: 15px;
+    margin-left: 0px;
 }
 
-.p11 {
-    font-size: 20px;
-}
-
-/*  ------- BOTONES ESPECIFICOS -------- */
-
+/* Special button configurations */
 
 .graph {
+    background: none;
     width: 210px;
     height: 210px;
+    grid-row: 3 / 5;
+    grid-column: 2 / 4;
     box-shadow: none;
     border: none;
 }
@@ -162,9 +165,71 @@ a {
     color: black;
 }
 
-.graph2 {
-    box-shadow: none;
-    border: none;
+
+.graph>img {
+    width: 200px;
+}
+
+/* Hover effect */
+
+.double:hover > .nodisp {
+    width: 250px;
+    margin: 0;
+}
+
+.double:hover > :last-child {
+    display: none;
+}
+
+/* ------- Responsive design --------*/
+
+@media screen and (max-width:500px) {
+
+    .contenedor-botones {
+        max-width: 400px;
+        max-height: 400px;
+        grid-template-rows: repeat(3, 70px);
+        grid-template-columns: repeat(3,70px);
+        padding: 0;
+    }
+    
+    .boton {
+        width: 70px;
+        height: 70px;
+        margin: 3px;
+    }
+
+    .nodisp {
+        position: absolute !important;
+        top: -9999px !important;
+        left: -9999px !important;
+    }
+
+    .graph {
+        width: 70px;
+        height: 70px;
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+    }
+
+    .graph > img {
+        max-width: 50px;
+    }
+    
+    a {
+        width: 80px;
+        margin: 0;
+    }
+
+    a > .double {
+        width: 80px;
+        margin: 0;
+    }
+
+
+    .double > .nodisp {
+        margin: 0;
+    }
 }
 
 .col1 {
@@ -202,7 +267,7 @@ a {
 .col3 {
     box-shadow: 5px 5px #7ee31f;
     transition: all 0.3s ease-in-out;
-    /*box-shadow: 5px 5px #a69cc4;*/
+    box-shadow: 5px 5px #7ee31f;
 }
 
 .col3:hover {
@@ -250,45 +315,4 @@ a {
 
 .graph > img {
     width: 200px;
-}
-
-/* ------- Responsive design --------*/
-
-@media screen and (max-width:500px) {
-
-    .contenedor-botones {
-        max-width: 400px;
-        max-height: 400px;
-        grid-template-columns: repeat(1, 70px) 140px;
-        padding: 0;
-        margin-left: -20px;
-    }
-    
-    .boton {
-        min-width: 70px;
-        min-height: 70px;
-    }
-    
-    .box {
-        margin-left: 5px;
-        grid-template-columns: repeat(2, 70px);
-        grid-template-rows: repeat(3, 70px);
-    }
-    
-    /*  ------- BOTONES ESPECIFICOS -------- */
-    .op1, .op2 {
-        display: flex;
-    }
-
-    .esp, .p11, .graph{
-        display: none;
-    }
-
-    .graph2 > img {
-        width: 60px;
-    }
-
-
-
-
 }
