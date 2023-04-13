@@ -98,7 +98,7 @@ a {
 /* Button menu divs */
 
 .contenedor-botones {
-    background-color: red;
+    background-color: rgb(202, 91, 0);
     max-width: 500px;
     max-height: 500px;
     font-size: 30px;
