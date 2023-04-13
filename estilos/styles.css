@@ -172,6 +172,17 @@ a {
     width: 200px;
 }
 
+/* Hover effect */
+
+.double:hover > .nodisp {
+    width: 250px;
+    margin: 0;
+}
+
+.double:hover > :last-child {
+    display: none;
+}
+
 /* ------- Responsive design --------*/
 
 @media screen and (max-width:500px) {
